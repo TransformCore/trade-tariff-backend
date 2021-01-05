@@ -17,7 +17,7 @@ jobs:
           specs:
             - "/*/**/UK/**/*spec.js"
             - "/*/**/XI/**/*spec.js"
-          env:
-            baseUrl: https://tariff-frontend-dev.london.cloudapps.digital
-            services.xi: https://tariff-frontend-dev.london.cloudapps.digital/xi
-            services.uk: https://tariff-frontend-dev.london.cloudapps.digital/uk
+        env:
+          baseUrl: https://tariff-frontend-dev.london.cloudapps.digital
+          services.xi: https://tariff-frontend-dev.london.cloudapps.digital/xi
+          services.uk: https://tariff-frontend-dev.london.cloudapps.digital/uk
