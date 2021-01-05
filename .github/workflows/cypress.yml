@@ -14,7 +14,10 @@ jobs:
         with:
           browser: chrome
           headless: true
+          specs:
+            - "/*/**/UK/**/*spec.js"
+            - "/*/**/XI/**/*spec.js"
           env:
-            baseUrl: https://www.trade-tariff.service.gov.uk
-            services.xi: https://www.trade-tariff.service.gov.uk/xi
-            services.uk: https://www.trade-tariff.service.gov.uk/uk
+            baseUrl: https://tariff-frontend-dev.london.cloudapps.digital
+            services.xi: https://tariff-frontend-dev.london.cloudapps.digital/xi
+            services.uk: https://tariff-frontend-dev.london.cloudapps.digital/uk
