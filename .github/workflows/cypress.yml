@@ -14,9 +14,7 @@ jobs:
         with:
           browser: chrome
           headless: true
-          specs:
-            - "/*/**/UK/**/*spec.js"
-            - "/*/**/XI/**/*spec.js"
+          spec: "/*/**/UK/**/*spec.js"
         env:
           baseUrl: https://tariff-frontend-dev.london.cloudapps.digital
           services.xi: https://tariff-frontend-dev.london.cloudapps.digital/xi
