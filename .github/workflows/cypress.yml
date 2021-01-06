@@ -17,8 +17,5 @@ jobs:
           quiet: true
           browser: chrome
           headless: true
-          spec: "/*/**/UK/**/*spec.js"
-        env:
-          baseUrl: https://tariff-frontend-dev.london.cloudapps.digital
-          services.xi: https://tariff-frontend-dev.london.cloudapps.digital/xi
-          services.uk: https://tariff-frontend-dev.london.cloudapps.digital/uk
+          spec: "*/**/smokeTest-XI.spec.js","*/**/smokeTest-NUK.spec.js"
+        
