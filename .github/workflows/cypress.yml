@@ -17,5 +17,5 @@ jobs:
           quiet: true
           browser: chrome
           headless: true
-          spec: "*/**/smokeTest-XI.spec.js","*/**/smokeTest-NUK.spec.js"
+          spec: "*/**/smokeTest-XI.spec.js,*/**/smokeTest-NUK.spec.js"
         
