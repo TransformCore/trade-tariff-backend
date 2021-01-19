@@ -1,4 +1,6 @@
 class ApplicationController < ActionController::Base
+  include GaTrackingHelper
+  
   respond_to :json, :html
 
   before_action :sample_requests_for_scout
